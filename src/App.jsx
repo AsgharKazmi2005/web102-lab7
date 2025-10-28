@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
-import CoinInfo from "./components/CoinInfo"
-import SideNav from "./components/SideNav"
+import CoinInfo from "./Components/CoinInfo"
+import SideNav from "./Components/SideNav"
 
 const API_KEY = import.meta.env.VITE_APP_API_KEY
 

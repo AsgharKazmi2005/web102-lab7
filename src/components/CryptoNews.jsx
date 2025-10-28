@@ -10,7 +10,7 @@ function CryptoNews() {
         `https://min-api.cryptocompare.com/data/v2/news/?lang=EN&api_key=${API_KEY}`
       )
       const data = await res.json()
-      setNewsList(data.Data.slice(0, 10)) // show 10 latest
+      setNewsList(data.Data.slice(0, 10))
     }
 
     fetchNews().catch(console.error)
